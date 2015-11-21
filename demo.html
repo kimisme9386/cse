@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--library -->
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="./js/matchMedia.js" type="text/javascript"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" type="text/javascript"></script>
+    <!-- custom library -->
+    <script src="./js/cse.js" type="text/javascript"></script>
+    <link href="./css/cse.css" rel="stylesheet" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+<div id="demo_div" style="margin-top:500px;border:1px solid blue;width:400px;height:100px;margin: 250px auto;text-align: center;vertical-align: middle">
+    Demo div. google cse will show near the element.
+</div>
+
+<div id="cse-search-container">
+    <div id="cse-search-form">
+        <img class="cse-loading" alt="載入中" src="./images/cse/loading.gif"/>
+    </div>
+</div>
+<div id="cse_result">
+    <div>
+        <a onclick="CSE.doCloseResult()">
+            <img alt="" src="./images/cse/close.png" title="關閉"/>
+        </a>
+    </div>
+    <div id="cse">&nbsp;</div>
+</div>
+</body>
+</html>
