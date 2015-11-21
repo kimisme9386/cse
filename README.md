@@ -31,9 +31,9 @@ var CSE_SETTING = {
 
 <table>
 	<tr>
-		<th>Parameter</th><th>Description</th><th>Default Value</th>
+		<th>Variable</th><th>Description</th><th>Default Value</th>
 	</tr>
-	<tr> <td>key</td><td>google cse key, get it with the [url](http://www.google.com/cse)</td><td></td> </tr>
+	<tr> <td>key</td><td>google cse key, get it with the http://www.google.com/cse</td><td></td> </tr>
 	<tr> <td>near_element_id</td> <td>show the search box reference base position</td> <td></td> </tr>
 	<tr> <td>near_position</td> <td>the position of search box relative the "near_element_id" dom(top、bottom、left、right)</td> <td>bottom</td> </tr>
 	<tr> <td>cse_input_width</td> <td>the width of search box</td> <td>180px</td> </tr>
