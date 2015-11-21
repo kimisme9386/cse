@@ -40,3 +40,5 @@ var CSE_SETTING = {
 	<tr> <td>result_width</td> <td>the width of search result float winow</td> <td>400px</td> </tr>
 	
 </table>
+
+    Also see the demo.html
