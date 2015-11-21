@@ -39,3 +39,5 @@ var CSE_SETTING = {
 	<tr> <td>result_width</td> <td>搜尋結果浮動視窗寬度</td> <td>400px</td> </tr>
 	
 </table>
+
+    也請參考 demo.html
