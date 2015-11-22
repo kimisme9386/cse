@@ -1,7 +1,7 @@
 # cse
 custom google custom search v1 with float window
 
-google custom search v1 with float winodw
+google custom search v1 with float window
 =========================================
 
 require library
@@ -37,7 +37,7 @@ var CSE_SETTING = {
 	<tr> <td>near_element_id</td> <td>show the search box reference base position</td> <td></td> </tr>
 	<tr> <td>near_position</td> <td>the position of search box relative the "near_element_id" dom(top、bottom、left、right)</td> <td>bottom</td> </tr>
 	<tr> <td>cse_input_width</td> <td>the width of search box</td> <td>180px</td> </tr>
-	<tr> <td>result_width</td> <td>the width of search result float winow</td> <td>400px</td> </tr>
+	<tr> <td>result_width</td> <td>the width of search result float window</td> <td>400px</td> </tr>
 	
 </table>
 
